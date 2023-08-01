@@ -1,0 +1,108 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.resume {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.contact-info {
+    font-size: 14px;
+    color: #555;
+}
+
+.work-experience, .personal-projects, .education, .skills {
+    margin-bottom: 30px;
+}
+
+.work-experience h2, .personal-projects h2, .education h2, .skills h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #007BFF;
+}
+
+.company {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.timeframe {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.responsibilities {
+    margin-left: 20px;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.technologies {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.project-link {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: #0056b3;
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
